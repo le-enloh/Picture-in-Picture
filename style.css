@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(160, 49, 49)
+}
+
+.button-container {
+    border: 2px solid rgb(139, 0, 0);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: "Playfair Display SC", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(236, 225, 209);
+    text-shadow: 0 2px 5px rgb(139, 0, 0);
+    background: linear-gradient(to top, #8f2c2c, #b93939);
+    border: 2px solid darkred;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #8f2c2c, #b93939);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.3);
+}
